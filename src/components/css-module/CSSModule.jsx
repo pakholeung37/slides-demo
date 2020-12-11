@@ -1,27 +1,27 @@
 import React from "react"
-import "./index.css"
+import s from "./index.module.scss"
 
-export function NativeCSS() {
+export function CSSModule() {
   return (
-    <figure className="card-container">
+    <figure className={s["card-container"]}>
       <img
-        className="avatar"
+        className={s["avatar"]}
         src="/avatar.jpg"
         alt=""
         width="384"
         height="512"
       />
-      <div className="info-container">
+      <div className={s["info-container"]}>
         <blockquote>
-          <p className="summary">
+          <p className={s["summary"]}>
             Amet sequi aspernatur. Et architecto reprehenderit nostrum sed
             aspernatur quaerat nobis. Rerum blanditiis est est quo sint qui
             commodi quia.
           </p>
         </blockquote>
-        <figcaption className="personal-info">
-          <div className="name">Miss Hester Gulgowski</div>
-          <div className="position">Investor</div>
+        <figcaption className={s["personal-info"]}>
+          <div className={s["name"]}>Miss Hester Gulgowski</div>
+          <div className={s["position"]}>Investor</div>
         </figcaption>
       </div>
     </figure>

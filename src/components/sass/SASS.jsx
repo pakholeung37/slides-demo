@@ -1,9 +1,9 @@
 import React from "react"
-import "./index.css"
+import "./index.scss"
 
-export function NativeCSS() {
+export function SASS() {
   return (
-    <figure className="card-container">
+    <figure className="card-container2">
       <img
         className="avatar"
         src="/avatar.jpg"
