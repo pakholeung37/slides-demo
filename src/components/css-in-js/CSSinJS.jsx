@@ -7,7 +7,7 @@ export function CSSinJS() {
     <figure
       css={{
         background: "#b4b4b4",
-        borderRadius: "2rem",
+        borderRadius: "1rem",
         marginLeft: "1rem",
         marginRight: "1rem",
         padding: "2rem",

@@ -2,7 +2,7 @@ import React from "react"
 
 export function AtomicCSS() {
   return (
-    <figure className="bg-gray-100 rounded-xl p-8 mx-4">
+    <figure className="bg-gray-100 p-8 mx-4 rounded-2xl">
       <img
         className="w-32 h-32 rounded-full mx-auto"
         src="/avatar.jpg"

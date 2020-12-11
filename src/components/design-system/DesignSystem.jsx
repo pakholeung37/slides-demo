@@ -3,7 +3,7 @@ import { Box, Image, Text, VStack } from "@chakra-ui/react"
 
 export function DesignSystem() {
   return (
-    <Box as="figure" rounded="xl" backgroundColor="gray.100" p={8} mx={4}>
+    <Box as="figure" rounded="2xl" backgroundColor="gray.100" p={8} mx={4}>
       <Image
         src="/avatar.jpg"
         width="384"
