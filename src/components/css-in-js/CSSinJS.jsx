@@ -34,7 +34,7 @@ export function CSSinJS() {
         }}
       >
         <blockquote>
-          <p css={{ fontSize: "1.125rem", lineHeight: "1.75rem" }}>
+          <p css={{ fontSize: "1.125rem", fontWeight: 600 }}>
             Amet sequi aspernatur. Et architecto reprehenderit nostrum sed
             aspernatur quaerat nobis. Rerum blanditiis est est quo sint qui
             commodi quia.
