@@ -2,7 +2,7 @@ import React from "react"
 
 export function CSSModule() {
   return (
-    <div className="card-container">
+    <div className="card-container3">
       <img className="avatar" src="/avatar.jpg" alt="" />
       <div className="info-container">
         <div>
