@@ -1,5 +1,4 @@
 import React from "react"
-import "./index.scss"
 
 export function SASS() {
   return (
@@ -8,9 +7,7 @@ export function SASS() {
       <div className="info-container">
         <div>
           <p className="summary">
-            Amet sequi aspernatur. Et architecto reprehenderit nostrum sed
-            aspernatur quaerat nobis. Rerum blanditiis est est quo sint qui
-            commodi quia.
+            architecto reprehenderit nostrum sed aspernatur quaerat nobis.
           </p>
         </div>
         <div className="personal-info">
