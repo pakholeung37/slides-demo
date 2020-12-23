@@ -2,19 +2,17 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/react"
 
-const container = css({
-  borderRadius: "1rem",
-  marginLeft: "1rem",
-  marginRight: "1rem",
-  padding: "2rem",
-  backgroundColor: "rgb(243, 244, 246)",
-})
-
-console.log(container)
-
 export function CSSinJS() {
   return (
-    <div css={container}>
+    <div
+      css={{
+        borderRadius: "1rem",
+        marginLeft: "1rem",
+        marginRight: "1rem",
+        padding: "2rem",
+        backgroundColor: "rgb(243, 244, 246)",
+      }}
+    >
       <img
         src="/avatar.jpg"
         alt=""
