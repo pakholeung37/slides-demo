@@ -1,10 +1,10 @@
 import React from "react"
-import { NativeCSS } from "./components/1native-css"
-// import { SASS } from "./components/2sass"
-// import { CSSModule } from "./components/3css-module"
-// import { CSSinJS } from "./components/4css-in-js"
-// import { AtomicCSS } from "./components/5atomic-css"
-// import { StyledSystem } from "./components/6styled-system"
+import { NativeCSS } from "./components/native-css"
+// import { SASS } from "./components/sass"
+// import { CSSModule } from "./components/css-module"
+// import { CSSinJS } from "./components/css-in-js"
+// import { AtomicCSS } from "./components/atomic-css"
+// import { StyledSystem } from "./components/styled-system"
 function App() {
   return (
     <>
