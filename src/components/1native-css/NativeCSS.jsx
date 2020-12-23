@@ -1,29 +1,27 @@
 import React from "react"
-import "./index.scss"
+import "./index.css"
 
-export function SASS() {
+export function NativeCSS() {
   return (
-    <figure className="card-container2">
+    <div className="card-container">
       <img
         className="avatar"
         src="/avatar.jpg"
         alt=""
-        width="384"
-        height="512"
       />
       <div className="info-container">
-        <blockquote>
+        <div>
           <p className="summary">
             Amet sequi aspernatur. Et architecto reprehenderit nostrum sed
             aspernatur quaerat nobis. Rerum blanditiis est est quo sint qui
             commodi quia.
           </p>
-        </blockquote>
-        <figcaption className="personal-info">
+        </div>
+        <div className="personal-info">
           <div className="name">Miss Hester Gulgowski</div>
           <div className="position">Investor</div>
-        </figcaption>
+        </div>
       </div>
-    </figure>
+    </div>
   )
 }
