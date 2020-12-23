@@ -1,18 +1,19 @@
 import React from "react"
+import s from "./index.module.scss"
 
 export function CSSModule() {
   return (
-    <div className="card-container3">
-      <img className="avatar" src="/avatar.jpg" alt="" />
-      <div className="info-container">
+    <div className={s["card-container3"]}>
+      <img className={s["avatar"]} src="/avatar.jpg" alt="" />
+      <div className={s["info-container"]}>
         <div>
-          <p className="summary">
+          <p className={s["summary"]}>
             architecto reprehenderit nostrum sed aspernatur quaerat nobis.
           </p>
         </div>
-        <div className="personal-info">
-          <div className="name">Miss Hester Gulgowski</div>
-          <div className="position">Investor</div>
+        <div className={s["personal-info"]}>
+          <div className={s["name"]}>Miss Hester Gulgowski</div>
+          <div className={s["position"]}>Investor</div>
         </div>
       </div>
     </div>
